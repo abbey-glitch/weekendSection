@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/signUp.css">
+    <title>SignUp</title>
+</head>
+<body>
+    <div id="wrapper">
+        <form action="" method="post">
+            <fieldset>
+                <legend>PROFILE</legend>
+                <div class="uploads">
+                    <label for="pics">uploads</label>
+                    <input type="file" name="picture" id=""> 
+                 </div>
+                <div class="username">
+                    <!-- <label for="username">username</label> -->
+                    <input type="text" placeholder="enter your username" title="fill in your username" name="username" id="">
+                </div>
+                <div class="firstname">
+                    <!-- <label for="firstname">firstname</label> -->
+                    <input type="text" placeholder="firstname" id="">
+                </div>
+                <div class="lastname">
+                    <!-- <label for="lastname">lastname</label> -->
+                    <input type="text" placeholder="lastname" name="lastname" id="">
+                </div>
+                <div class="password">
+                    <!-- <label for="password">password</label> -->
+                    <input type="password" placeholder="password" name="password" id="">
+                </div>
+                <div class="gender">
+                    <label for="gender">Gender:</label>
+                    <label for="male">male</label>
+                    <input type="radio" name="select" id="">
+                    <label for="female">female</label>
+                    <input type="radio" name="select" id="">
+                    <label for="custom">custom</label>
+                    <input type="radio" name="select" id="">
+                </div>
+                <fieldset>
+                    <legend>ACADEMICS</legend>
+                    <select name="" id="">
+                        <option value="">select your school</option>
+                        <option value="yct">yct</option>
+                        <option value="unilag">unilag</option>
+                        <option value="fstc">fstc</option>
+                        <option value="lasu">lasu</option>
+                    </select>
+                </fieldset>
+            </fieldset>
+            <fieldset>
+                <legend>Cover letter</legend>
+                <textarea name="" id="" placeholder="enter a maximum of 500 characters" cols="30" rows="10">
+
+                </textarea>
+            </fieldset>
+            <div class="controls">
+                <input type="submit" value="register">
+                <button type="reset">reset</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
